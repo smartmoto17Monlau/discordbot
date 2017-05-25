@@ -29,7 +29,7 @@ public class tcpServer extends Thread {
     public void run(){
         while (true) {
             try{
-                welcomeSocket = new ServerSocket(port[i]);
+                welcomeSocket = new ServerSocket(9009/*port[i]*/);
                 connectionSocket = welcomeSocket.accept();
                 //BufferedReader inFromClient = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
                 DataInputStream dIn = new DataInputStream(connectionSocket.getInputStream());
