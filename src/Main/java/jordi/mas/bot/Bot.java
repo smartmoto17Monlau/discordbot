@@ -44,6 +44,7 @@ public class Bot {
         tcpServer tcp = new tcpServer();
         tcp.start();
 
+
     }
 
     public static void handleCommand(CommandParser.CommandContainer cmd) throws SQLException, ClassNotFoundException {

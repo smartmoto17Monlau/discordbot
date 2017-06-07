@@ -43,7 +43,8 @@ public class tcpServer extends Thread {
                         " · An SOS help message was recieved from User001 \n" +
                         " · Its possible that User001 has suffered an accident \n" +
                         " · For additional info, use !help command or contact with the user."+
-                        "\n";
+                                "\n"+
+                                "\n";
 
                 String batmsg =
                         "##############################################\n" +
@@ -53,15 +54,17 @@ public class tcpServer extends Thread {
                                 " · An SOS help message was recieved from User001 \n" +
                                 " · The Battery level in User001's bike is less than 10% \n" +
                                 " · For additional info, use !help command or contact with the user."+
+                                "\n"+
                                 "\n";
                 String custommsg =
                                 "##############################################\n" +
-                                "##                                                 [SOS]: General                                             ##\n" +
+                                "##                                                 [SOS]: General                                           ##\n" +
                                 "##############################################\n"+
                                 "\n"+
                                 " · A User triggered SOS help message was recieved from User001 \n" +
                                 //" ·  \n" +
                                 " · For additional info, use !help command or contact with the user."+
+                                "\n"+
                                 "\n";
 
                 if(clientSentence == 0){

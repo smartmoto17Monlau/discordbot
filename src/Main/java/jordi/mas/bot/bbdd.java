@@ -135,8 +135,6 @@ public class bbdd {
     }
 
     private static String getCurrentDate(){
-
-
         return  LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd hh:mm:ss"));
     }
 
