@@ -54,7 +54,6 @@ public class LastCommand implements Command {
                 " · Hydrogen: "+data[16]+"\n" +
                 " · Methane: "+data[17]+"\n" +
                 " · CO2: "+data[18]+"\n" +
-                " · Amonia: "+data[19]+"\n" +
                 " · RAD: "+data[20]+"\n" +
                 " · Temperature: "+data[21]+"\n" +
                 " · Humidity: "+data[22]+"\n" +
